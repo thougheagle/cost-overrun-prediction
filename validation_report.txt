@@ -1,0 +1,7 @@
+rows read: 1817 
+
+=== Validation: anticipated - original vs. reported overrun ===
+projects with original and anticipated cost: 1816 of 1817 
+projects with a printed overrun: 1815 | computed == printed: 1815 | differ: 0 
+
+saved projects_clean_R.csv : 1817 rows, 28 columns

@@ -1,0 +1,31 @@
+projects total: 1817 | with original and anticipated cost: 1816 
+
+[1] anticipated > original: 458 of 1816 = 25.2% 
+    anticipated < original (underrun): 94 | equal: 1264 
+[2] anticipated == original: 1264 of 1816 = 69.6% 
+    formally revised cost printed: 436 of 1817 = 24.0% 
+[3] original date <= 2022: 674 projects; still 'no overrun': 411 
+[4] zero expenditure: 110 | approved <= 2019: 39 
+[5] stage effect (spent = expenditure / anticipated cost)
+    >=95% spent (near-complete) : n = 150 | overrun by estimate 41.3% | by spending 69.3% 
+    >=90% spent : n = 225 | overrun by estimate 42.7% | by spending 57.8% 
+    <50% spent : n = 970 | overrun by estimate 17.0% | by spending 1.2% 
+    50-90% spent : n = 621 | overrun by estimate 31.7% | by spending 14.8% 
+    label_spent defined on 150 projects; overrun share 69.3% 
+
+[6] state: 33 values | sector: 21 values
+
+Road Transport And Highways                    Railways 
+                       1060                         235 
+                       Coal                   Petroleum 
+                        118                         118 
+                      Power             Water Resources 
+                        106                          41 
+    missing approval: 1 | missing original date: 32 | planned_duration missing: 37 
+
+[7] overrun % among the 458 overrun projects
+    0%    25%    50%    75%    90%   100% 
+   0.0   12.2   27.9   66.2  145.0 3230.6 
+    overruns below 0.1% of original cost: 12 
+
+[8] baseline 'always no overrun': accuracy 74.8% on the full panel; 30.7% on the near-complete subset (majority there is overrun)
